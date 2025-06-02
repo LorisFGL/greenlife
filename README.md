@@ -1,8 +1,8 @@
 # 🌱 Projet GreenLife – Sensibilisation à la consommation responsable
 
 ## 🧑‍💻 Membres du projet :
-- **FEGHOUL Loris** – Développement web, JavaScript (quiz, simulateur)
-- **LABARBE Luc** – Développement web, structuration du contenu
+- **FEGHOUL Loris**
+- **LABARBE Luc** 
 
 ## 🎯 Objectif :
 Créer un site interactif visant à informer les utilisateurs sur les bonnes pratiques de consommation responsable (ODD 12) avec :
