@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - GreenLife</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">GreenLife</a>
+                <div class="burger-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="solutions.html">Solutions</a></li>
+                    <li><a href="quiz.html" class="active">Quiz</a></li>
+                    <li><a href="a-propos.html">À propos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            <section class="section quiz-section">
+                <h1>Quiz Consommation Responsable</h1>
+                <p class="section-intro">Testez vos connaissances sur la consommation responsable en répondant à ces 5 questions.</p>
+
+                <form id="quiz-form" class="quiz-form">
+                    <div class="question-card">
+                        <h3>Question 1</h3>
+                        <p>Quelle est la meilleure façon de réduire l'impact environnemental de son alimentation ?</p>
+                        <div class="options">
+                            <label>
+                                <input type="radio" name="q1" value="a">
+                                Acheter des produits importés en grande quantité
+                            </label>
+                            <label>
+                                <input type="radio" name="q1" value="b">
+                                Privilégier les produits locaux et de saison
+                            </label>
+                            <label>
+                                <input type="radio" name="q1" value="c">
+                                Consommer uniquement des produits transformés
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="question-card">
+                        <h3>Question 2</h3>
+                        <p>Quel geste simple permet d'économiser le plus d'énergie à la maison ?</p>
+                        <div class="options">
+                            <label>
+                                <input type="radio" name="q2" value="a">
+                                Éteindre les appareils en veille
+                            </label>
+                            <label>
+                                <input type="radio" name="q2" value="b">
+                                Baisser le chauffage de 1°C
+                            </label>
+                            <label>
+                                <input type="radio" name="q2" value="c">
+                                Utiliser des multiprises
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="question-card">
+                        <h3>Question 3</h3>
+                        <p>Quelle est la solution la plus écologique pour se déplacer en ville ?</p>
+                        <div class="options">
+                            <label>
+                                <input type="radio" name="q3" value="a">
+                                Utiliser sa voiture personnelle
+                            </label>
+                            <label>
+                                <input type="radio" name="q3" value="b">
+                                Prendre un taxi
+                            </label>
+                            <label>
+                                <input type="radio" name="q3" value="c">
+                                Se déplacer à vélo ou en transports en commun
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="question-card">
+                        <h3>Question 4</h3>
+                        <p>Quelle action permet de réduire significativement sa consommation d'eau ?</p>
+                        <div class="options">
+                            <label>
+                                <input type="radio" name="q4" value="a">
+                                Prendre un bain tous les jours
+                            </label>
+                            <label>
+                                <input type="radio" name="q4" value="b">
+                                Installer un économiseur d'eau sur le robinet
+                            </label>
+                            <label>
+                                <input type="radio" name="q4" value="c">
+                                Laver sa voiture chaque semaine
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="question-card">
+                        <h3>Question 5</h3>
+                        <p>Quelle est la meilleure pratique pour réduire ses déchets numériques ?</p>
+                        <div class="options">
+                            <label>
+                                <input type="radio" name="q5" value="a">
+                                Nettoyer régulièrement sa boîte mail
+                            </label>
+                            <label>
+                                <input type="radio" name="q5" value="b">
+                                Stocker toutes ses photos en ligne
+                            </label>
+                            <label>
+                                <input type="radio" name="q5" value="c">
+                                Utiliser plusieurs appareils en même temps
+                            </label>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn">Valider mes réponses</button>
+                </form>
+
+                <div id="quiz-result" class="quiz-result" style="display: none;">
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>GreenLife</h3>
+                    <p>Un projet étudiant pour sensibiliser à la consommation responsable et contribuer à l'ODD n°12.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Navigation</h3>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="solutions.html">Solutions</a></li>
+                        <li><a href="quiz.html">Quiz</a></li>
+                        <li><a href="a-propos.html">À propos</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li><a href="a-propos.html#contact">Formulaire de contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 GreenLife - Tous droits réservés</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 

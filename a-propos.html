@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>À propos - GreenLife</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">GreenLife</a>
+                <div class="burger-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="solutions.html">Solutions</a></li>
+                    <li><a href="quiz.html">Quiz</a></li>
+                    <li><a href="a-propos.html" class="active">À propos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            <section class="section team-section">
+                <h1>Notre Équipe</h1>
+                <p class="section-intro">Découvrez les membres du projet GreenLife et leurs rôles dans la sensibilisation à la consommation responsable.</p>
+
+                <div class="team-grid">
+                    <div class="team-card">
+                        <img src="img/loris.png" alt="FEGHOUL Loris">
+                        <h3>FEGHOUL Loris</h3>
+                        <p class="role">Développeur Web</p>
+                        <p>Création et maintenance du site web</p>
+                    </div>
+
+                    <div class="team-card">
+                        <img src="img/luc.png" alt="LABARBE Luc">
+                        <h3>LABARBE Luc</h3>
+                        <p class="role">Designer</p>
+                        <p>Conception de l'interface et des visuels</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact" class="section contact-section">
+                <h2>Contactez-nous</h2>
+                <p>Vous avez des questions ou des suggestions ? N'hésitez pas à nous contacter !</p>
+
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Nom</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn">Envoyer le message</button>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>GreenLife</h3>
+                    <p>Un projet étudiant pour sensibiliser à la consommation responsable et contribuer à l'ODD n°12.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Navigation</h3>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="solutions.html">Solutions</a></li>
+                        <li><a href="quiz.html">Quiz</a></li>
+                        <li><a href="a-propos.html">À propos</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li><a href="#contact">Formulaire de contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 GreenLife - Tous droits réservés</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
