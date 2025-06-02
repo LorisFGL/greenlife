@@ -756,4 +756,30 @@ footer {
 .simulator-result.show {
     display: block;
     animation: fadeIn 0.3s ease-out;
+}
+
+.github-link {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.github-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #24292e;
+    color: var(--white);
+    padding: 12px 24px;
+    border-radius: var(--border-radius);
+    transition: var(--transition);
+}
+
+.github-btn:hover {
+    background-color: #2f363d;
+    transform: translateY(-2px);
+}
+
+.github-btn svg {
+    width: 20px;
+    height: 20px;
 } 
